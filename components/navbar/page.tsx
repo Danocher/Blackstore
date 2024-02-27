@@ -5,8 +5,8 @@ export default function Navbar(){
     return(
         <>
         <div className="navmain">
-            <div className="navbut">
-                {/* <Image src="/logo.png" alt="Black Store" width={30} height={20}/> */}
+            <div className="navbut1">
+                <Image src="/logo.png" alt="Black Store" width={30} height={20}/>
             </div>
             <div className="navbut">
                 iPhone
