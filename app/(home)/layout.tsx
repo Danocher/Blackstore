@@ -10,7 +10,7 @@ const HomeLayout = ({children}:HomeLaypoutProps) => {
   return (
     <div>
         <Navbar/>
-        <div>
+        <div className=" h-full pt-10">
             {children}
         </div>
     </div>

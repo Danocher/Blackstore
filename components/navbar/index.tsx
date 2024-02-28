@@ -10,7 +10,7 @@ export const Navbar = () => {
     return(
        
         <div className=" flex justify-center bg-[#454545] text-white items-center fixed top-0 w-full h-10  z-[49]  px-2 lg:px-4  shadow-sm text-sm  space-x-5">
-            <div className=" m-3">
+            <div className="">
                 <Image src="/logo.png" alt="Black Store" width={40} height={30}/>
             </div>
             <div className=" m-3 ml-10">

@@ -18,10 +18,12 @@ export const Category = () => {
                 <h3>от 37990 Р</h3>
             </div>
 
-            <div className=" h-full w-full flex flex-col justify-center items-center border-gray-400 border">
+            <div className=" h-full w-full flex flex-col justify-end items-center border-gray-400 border space-y-5">
                 <Image src="/watches.png" alt="Watch" width={300} height={200}/>
-                <h1>Watch</h1>
-                <h3>от 31990 Р</h3>
+                <div className=" flex flex-col items-center justify-center">
+                    <h1>Watch</h1>
+                    <h3>от 31990 Р</h3>
+                </div>
             </div>
 
             <div className=" h-full w-full flex flex-col justify-center items-center border-gray-400 border">
@@ -33,8 +35,7 @@ export const Category = () => {
             <div className=" h-full w-full flex flex-col justify-center items-center border-gray-400 border">
                 <Image src="/smart.png" alt="Smart Home" width={300} height={200}/>
                 <h1>Умный дом</h1>
-                <h3>от 
-                    3990 Р</h3>
+                <h3>от 3990 Р</h3>
             </div>
             <div className=" h-full w-full flex flex-col justify-center items-center border-gray-400 border">
                 <Image src="/gameplay.png" alt="Game Stations" width={300} height={200}/>
@@ -44,8 +45,12 @@ export const Category = () => {
 
             <div className=" h-full w-full flex flex-col justify-center items-center border-gray-400 border">
                 <Image src="/homeandkitchen.png" alt="Home Technique" width={300} height={200}/>
-                <h1>Техника для красоты и дома</h1>
-                <h3>от 31990 Р</h3>
+                <div className="flex justify-center text-center">
+                    <h1>Техника для красоты и дома</h1>
+                </div>
+                <div>
+                    <h3>от 31990 Р</h3>
+                </div>
             </div>
 
             <div className=" h-full w-full flex flex-col justify-center items-center border-gray-400 border">
