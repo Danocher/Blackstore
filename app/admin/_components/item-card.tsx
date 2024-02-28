@@ -33,7 +33,7 @@ export const ItemCard = ({item}:ItemCard) => {
     return(
         <div>
             {item.size.map(e => 
-                <div>
+                <div key={e.id}>
                     <Button onClick={() => 
                         startTransition(() => {
                             let vi = isSize.size.indexOf(e.name)
